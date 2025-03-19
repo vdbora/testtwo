@@ -1,0 +1,63 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ff4500;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    background-color: #b22222;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+form {
+    background-color: #b22222;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+}
+
+form label, form input {
+    display: block;
+    margin: 10px 0;
+}
+
+form input[type="text"], form input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+form input[type="submit"] {
+    background-color: white;
+    color: #b22222;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    padding: 10px;
+    background-color: #b22222;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}

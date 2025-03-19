@@ -4,89 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VOBONA Products</title>
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #ff4500;
-            color: white;
-            text-align: center;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            padding: 20px;
-        }
-        .header {
-            padding: 20px;
-            background-color: #b22222;
-        }
-        .footer {
-            padding: 10px;
-            background-color: #b22222;
-            position: relative;
-            width: 100%;
-            bottom: 0;
-        }
-        .nav {
-            margin: 20px 0;
-        }
-        .nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-        .products {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-        .product {
-            background-color: #b22222;
-            padding: 15px;
-            margin: 10px;
-            border-radius: 10px;
-            width: 200px;
-        }
-        .product img {
-            width: 100%;
-            border-radius: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="header">
+    <header>
         <h1>VOBONA Products</h1>
-        <p>Our Selection of Batteries</p>
-        <div class="nav">
+        <p>Explore Our Range of Batteries</p>
+        <nav>
             <a href="index.html">Home</a>
             <a href="factory.html">Factory</a>
             <a href="products.html">Products</a>
             <a href="register.html">Register</a>
-        </div>
-    </div>
-    <div class="container">
+        </nav>
+    </header>
+    <main>
         <h2>Choose Your Battery</h2>
         <p>We offer a wide range of high-quality batteries for different needs.</p>
-        <div class="products">
-            <div class="product">
-                <img src="image/batterySmall.jpg" alt="Battery Model 1">
-                <p>Battery Model 1</p>
-            </div>
-            <div class="product">
-                <img src="image/batteryBig.jpg" alt="Battery Model 2">
-                <p>Battery Model 2</p>
-            </div>
-            <div class="product">
-                <img src="image/batteryStorage.jpg" alt="Battery Model 3">
-                <p>Battery Model 3</p>
-            </div>
-        </div>
-    </div>
-    <div class="footer">
+        <section>
+            <img src="image/batterySmall.jpg" alt="Battery Model 1">
+            <p>Battery Model 1</p>
+        </section>
+        <section>
+            <img src="image/batteryBig.jpg" alt="Battery Model 2">
+            <p>Battery Model 2</p>
+        </section>
+        <section>
+            <img src="image/batterPacksy.jpg" alt="Battery Model 3">
+            <p>Battery Model 3</p>
+        </section>
+    </main>
+    <footer>
         <p>&copy; 2025 VOBONA Batteries</p>
-    </div>
+    </footer>
 </body>
 </html>
